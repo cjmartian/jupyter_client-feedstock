@@ -1,5 +1,7 @@
 {% set version = "6.0.0" %}
 
+# made a change here
+
 package:
   name: jupyter_client
   version: {{ version }}

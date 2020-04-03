@@ -1,6 +1,6 @@
 {% set version = "6.0.0" %}
 
-# made a change here 9
+# made a change here 10
 
 package:
   name: jupyter_client
@@ -11,7 +11,7 @@ source:
   sha256: 1fac6e3be1e797aea33d5cd1cfa568ff1ee71e01180bc89f64b24ee274f1f126
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
